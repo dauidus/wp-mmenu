@@ -76,14 +76,21 @@ else { $footer = "false"; }
 			classes: "<?php echo $theme; ?>", 
 			position: "<?php echo $position; ?>", 
 			zposition: "<?php echo $zposition; ?>", 
-			header: {add: <?php echo $header; ?>, 
+			header: {
+				add: "<?php echo $header; ?>", 
 				title: "<?php echo $headertitle; ?>", 
 				update: "true"
 			}, 
-			counters: <?php echo $counters; ?>, 
-			slidingSubmenus: <?php echo $slidingsubmenus; ?>, 
-			searchfield: <?php echo $searchfield; ?>, 
-			footer: {add: <?php echo $footer; ?>, 
+			counters: "<?php echo $counters; ?>", 
+			slidingSubmenus: "<?php echo $slidingsubmenus; ?>", 
+			searchfield: {
+				add: "<?php echo $searchfield; ?>", 
+				form: "true",
+				addTo: "mm-header",
+				search: "true"
+			},	
+			footer: {
+				add: "<?php echo $footer; ?>", 
 				title: "<?php echo $footertitle; ?>"
 			}
 		});
