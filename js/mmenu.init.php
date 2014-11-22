@@ -77,18 +77,25 @@ else { $footer = "false"; }
 			position: "<?php echo $position; ?>", 
 			zposition: "<?php echo $zposition; ?>", 
 			header: {
-				add: "<?php echo $header; ?>", 
-				title: "<?php echo $headertitle; ?>", 
-				update: "true"
+				<?php if ($header == "true") {
+					echo 'add: "' . $header . '",'; 
+					echo 'title: "' . $headertitle . '",'; 
+					echo 'update: "true"';
+				} ?>
 			}, 
 			counters: "<?php echo $counters; ?>", 
 			slidingSubmenus: "<?php echo $slidingsubmenus; ?>", 
 			searchfield: {
-				add: "<?php echo $searchfield; ?>", 
+				<?php if ($searchfield == "true") {
+					echo 'add: "' . $searchfield . '",'; 
+					echo 'placeholder: "Search this Site"';
+				} ?>
 			},	
 			footer: {
-				add: "<?php echo $footer; ?>", 
-				title: "<?php echo $footertitle; ?>"
+				<?php if ($footer == "true") {
+					echo 'add: "' . $footer . '",'; 
+					echo 'title: "' . $footertitle . '",';
+				} ?>
 			}
 		});
 
