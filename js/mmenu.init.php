@@ -85,9 +85,6 @@ else { $footer = "false"; }
 			slidingSubmenus: "<?php echo $slidingsubmenus; ?>", 
 			searchfield: {
 				add: "<?php echo $searchfield; ?>", 
-				form: "true",
-				addTo: "mm-header",
-				search: "true"
 			},	
 			footer: {
 				add: "<?php echo $footer; ?>", 
