@@ -6,17 +6,17 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 /*
 
-Plugin Name: WP MMenu Lite (Mobile Menu)
+Plugin Name: WP MMenu (Mobile Menu)
 
-Plugin URI: http://profiles.wordpress.org/jamesdbruner/
+Plugin URI: http://profiles.wordpress.org/jamesdbruner/, http://dauid.us
 
-Description: Easily create and customize a mobile menu based on Fred Heusschen's <a href="http://mmenu.frebsite.nl/">mmenu.js</a>
+Description: Easily create and customize a mobile menu based on Fred Heusschen's <a href="http://mmenu.frebsite.nl/">mmenu.js</a> - modified by dauidus
 
 Version: 2.0.0
 
 Author: James Bruner, Dave Winter
 
-Author URI: http://profiles.wordpress.org/jamesdbruner/
+Author URI: http://profiles.wordpress.org/jamesdbruner/, http://dauid.us
 
 License: GPLv2 or later
 
